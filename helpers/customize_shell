@@ -1,0 +1,4 @@
+# command to execute to customize our shell: 
+$ curl https://raw.githubusercontent.com/taikovic/content-intro-to-python-development/master/helpers/bashrc -o ~/.bashrc
+$ curl https://raw.githubusercontent.com/taikovic/content-intro-to-python-development/master/helpers/vimrc -o ~/.vimrc 
+$ exec $SHELL
